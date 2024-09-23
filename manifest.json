@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Wiki-Lookup",
+    "version": "1.0",
+    "description": "Highlight text to quickly look up information on Wikipedia.",
+    "permissions": [
+        "contextMenus",
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "48": "icon.png",
+        "128": "icon-large.png"
+    }
+}
